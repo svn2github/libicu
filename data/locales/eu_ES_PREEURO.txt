@@ -5,14 +5,16 @@
 // *
 // *******************************************************************************
 
-fr_FR {
-    Version{ "1.0"}
-    CurrencyElements { 
-            "\u20AC",
-            "EUR",
+eu_ES_PREEURO {
+    Version { "x0.0" }
+    CurrencyElements {
+            "Pts",
+            "ESP",
             ",",
     }
-    LocaleString { "fr_FR" }
-    ShortCountry { "FRA" }
-    LocaleID { "040c" }
+    NumberPatterns {
+            "#,#0.##;-#,#0.##",
+            "\u00a4 #,##0.#;-\u00a4 #,##0.#",
+            "#,#0%",
+    }
 }
